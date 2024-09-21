@@ -10,9 +10,6 @@ android {
 
     defaultConfig {
         minSdk = Configs.minSdk
-
-        testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
-        consumerProguardFiles("consumer-rules.pro")
     }
 
     buildTypes {
@@ -47,7 +44,10 @@ publishing {
         }
     }
     publications {
-        create<MavenPublication>("mavenJava") {
+        create<MavenPublication>("mavenAndroid") {
+            afterEvaluate {
+                from(components["release"])
+            }
             groupId = "vn.finance.libs"
             artifactId = "ui-launch"
             version = "1.0.0" // Set your desired version here

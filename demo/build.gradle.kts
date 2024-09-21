@@ -59,4 +59,6 @@ dependencies {
     implementation(mobilex.androidxComposeUiGraphics)
     implementation(mobilex.androidxComposeUiToolingPreview)
     implementation(mobilex.androidxComposeMaterial3)
+    testImplementation(mobilex.bundles.testComponents)
+    androidTestImplementation(mobilex.bundles.androidTestComponents)
 }

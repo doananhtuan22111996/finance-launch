@@ -49,7 +49,7 @@ publishing {
                 from(components["release"])
             }
             groupId = "vn.finance.libs"
-            artifactId = "ui-launch"
+            artifactId = "feature-launch"
             version = "1.0.0" // Set your desired version here
         }
     }

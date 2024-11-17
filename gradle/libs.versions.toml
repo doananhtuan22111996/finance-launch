@@ -1,7 +1,9 @@
 [versions]
+corePlugins = "1.0.1"
 financeTheme = "1.0.1"
 
 [libraries]
-financeTheme = { group = "vn.finance.libs", name = "ui-theme", version.ref = "financeTheme" }
+corePlugins = { group = "vn.core.libs", name = "plugins", version.ref = "corePlugins" }
+financeTheme = { group = "vn.finance.libs", name = "theme", version.ref = "financeTheme" }
 
 [plugins]

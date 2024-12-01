@@ -7,7 +7,7 @@ plugins {
 }
 
 android {
-    namespace = Configs.namespace
+    namespace = Configs.NAMESPACE
 }
 
 publishing {

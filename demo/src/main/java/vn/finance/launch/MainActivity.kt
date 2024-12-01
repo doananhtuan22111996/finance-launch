@@ -31,7 +31,6 @@ class MainActivity : ComponentActivity() {
                         modifier = Modifier
                             .fillMaxSize()
                             .padding(innerPadding)
-                            .background(MaterialTheme.colorScheme.primary)
                     ) {
                         Text(text = "Hello")
                     }

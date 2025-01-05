@@ -1,4 +1,3 @@
 package vn.finance.launch
 
-class MyClass {
-}
+class MyClass

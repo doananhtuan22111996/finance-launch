@@ -1,5 +1,5 @@
 [versions]
-corePlugins = "1.0.1"
+corePlugins = "1.0.2"
 financeTheme = "1.0.2"
 
 [libraries]
